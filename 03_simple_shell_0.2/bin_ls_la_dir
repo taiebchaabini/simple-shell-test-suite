@@ -11,7 +11,7 @@ var_file=".checker_var_file_$RANDOM"
 var_filedir="/var"
 var_filepath="$var_filedir/$var_file"
 command="/bin/ls -la /var $var_filedir/"
-command="/bin/ls -l /var $var_filedir/"
+command="/bin/ls -l -a  /var $var_filedir/"
 
 
 # clean up
