@@ -8,7 +8,7 @@
 #   None
 # Arguments:
 #   None
-# Returns:
+# Returns :
 #   None
 #######################################
 function print_ko()
