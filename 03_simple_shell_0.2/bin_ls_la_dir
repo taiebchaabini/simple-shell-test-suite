@@ -7,6 +7,11 @@ tmp_filedir="/tmp"
 tmp_filepath="$tmp_filedir/$tmp_file"
 command="/bin/ls -la $tmp_filedir/"
 
+var_file=".checker_var_file_$RANDOM"
+tmp_filedir="/var"
+var_filepath="$var_filedir/$var_file"
+command="/bin/ls -la /var $var_filedir/"
+
 # clean up
 stop_shell
 rm -f $tmp_filepath
