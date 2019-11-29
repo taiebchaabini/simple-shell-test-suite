@@ -41,7 +41,7 @@ function print_ok()
 #   None
 # Returns:
 #   None
-#######################################
+###########################################
 function stop_shell()
 {
     if [ `pidof $SHELL | wc -l` -ne 0 ]; then
