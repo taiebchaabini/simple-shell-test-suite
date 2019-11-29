@@ -33,7 +33,7 @@ if [ $nmatch -eq 0 ]; then
 	   print_ok
     fi
 else
-    print_ko
+ print_ko
 fi
 
 # clean up
