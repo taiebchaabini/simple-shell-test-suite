@@ -3,6 +3,7 @@ command="ls
 
 
  /bin/ls 
+ 
  ls /bin/ls
 
      ls
